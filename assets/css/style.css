@@ -19,6 +19,7 @@ h1 {
     padding: 5px;
     width: 90%;
     margin-top: 20px;
+    box-shadow: 15px 15px rgba(226, 226, 226, 0.5);
 }
 
 #materiaBox {
@@ -28,6 +29,8 @@ h1 {
     text-align: center;
     margin: auto;
     padding: 10px;
+    border-radius: 15px;
+    box-shadow: 3px 3px rgba(82, 82, 82, 0.7);
 }
 
 .materiaImg {
@@ -39,8 +42,10 @@ h1 {
     margin: auto;
     text-align: center;
     width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px rgba(82, 82, 82, 0.7);
 }
 
 #goal {
@@ -53,8 +58,10 @@ h1 {
     margin: auto;
     text-align: center;
     width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px rgba(82, 82, 82, 0.7);
 }
 
 #current {
@@ -67,8 +74,10 @@ h1 {
     margin: auto;
     text-align: center;
     width: 20%;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 5px 3px rgba(82, 82, 82, 0.7);
 }
 
 #winNum {
