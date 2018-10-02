@@ -4,28 +4,79 @@ body {
 }
 
 h1 {
-    background-color: white;
-    font-size: 3em !important;
+    color: #454545;
+    font-size: 4em !important;
     font-weight: bold !important;
-    margin: auto;
+    margin: auto !important;
+    font-family: 'Cinzel', serif !important;
+    text-align: center;
+    text-shadow: 3px 3px rgba(82, 82, 82, 0.5);
 }
 
-div {
-    background-color: white;
+#game {
+    background-color: rgba(226, 226, 226, 0.7);
     margin: auto;
     padding: 5px;
     width: 90%;
+    margin-top: 20px;
 }
 
 #materiaBox {
-    background-color: aquamarine;
+    background-color: #454545;
     height: 138px;
+    width: 552px;
+    text-align: center;
+    margin: auto;
+    padding: 10px;
 }
 
 .materiaImg {
     margin: 5px;
 }
 
+#goalBox {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
 #goal {
     font-size: 2em;
+    font-family: 'Cinzel', serif !important;
+}
+
+#currentBox {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#current {
+    font-size: 2em;
+    font-family: 'Cinzel', serif !important;
+}
+
+#score {
+    background-color: white;
+    margin: auto;
+    text-align: center;
+    width: 20%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#winNum {
+    font-size: 2em;
+    font-family: 'Cinzel', serif !important;
+}
+
+#lossesNum{
+    font-size: 2em;
+    font-family: 'Cinzel', serif !important;
 }

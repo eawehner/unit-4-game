@@ -9,11 +9,17 @@
         <!-- My own code -->
        <script src="assets/javascript/game.js"></script>
 
+       <!-- Google Fonts -->
+       <link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+
        <!-- CSS -->
        <link rel="stylesheet" href="assets/css/style.css">
        <link rel="stylesheet" href="assets/css/reset.css">
+
     </head>
     <body>
+
+    <div id="game">
         <h1>Materia Clicker Game</h1>
 
         <div id="goalBox">
@@ -24,10 +30,18 @@
         <div id="materiaBox">
         </div>
 
-        <div id="scoreBox">
+        <div id="currentBox">
             <p>Your Current Number:</p>
-            <br> <span id="score"></span>
+            <br> <span id="current"></span>
         </div>
 
+        <div id="score">
+            <p>Wins:</p>
+            <br> <span id="winNum"></span>
+
+            <p>Losses:</p>
+            <br> <span id="lossesNum"></span>
+        </div>
+    </div>
     </body>
 </html>
