@@ -34,7 +34,7 @@ function gameStart() {
 
         displayedMateria.addClass("materiaImg");
 
-        displayedMateria.attr("src", materias[randomMateria]).attr("data-materiaValue", materiaValue);
+        displayedMateria.attr("src", materias[randomMateria]).attr("data-materiaValue", valueArray[randomValue]);
 
         // displayedMateria.attr("data-materiaValue", materiaValue);
 
@@ -45,6 +45,7 @@ function gameStart() {
 
         valueArray.splice(randomValue, 1);
     };
+
 };
 
 function restart() {
@@ -60,7 +61,7 @@ function restart() {
     ];
     
     // and numbers
-    var valueArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
+    valueArray = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12];
 
     var currentCount = 0;
 
